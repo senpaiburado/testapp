@@ -1,0 +1,59 @@
+{
+    "app": {
+        "name": "TestApp"
+    },
+    "server": {
+        "port": 3300
+    },
+    "database": {
+        "bookTableName": "books",
+        "master": {
+            "host": "localhost",
+            "user": "root",
+            "password": "xjkfr2019",
+            "port": "3306",
+            "database": "test",
+            "connectionLimit": 3
+        }
+    },
+    "random_data": {
+        "authors": [
+            "William Shakespeare",
+            "Agatha Christie",
+            "Barbara Cartland",
+            "Danielle Steel",
+            "Harold Robbins",
+            "Georges Simenon",
+            "Enid Blyton",
+            "Sidney Sheldon",
+            "J. K. Rowling",
+            "Gilbert Patten",
+            "Dr. Seuss"
+        ],
+        "titles": [
+            "Plays and poetry",
+            "Whodunits including the Miss Marple and Hercule Poirot series",
+            "Romance",
+            "Romance",
+            "Adventure",
+            "Detectives, Maigret, romans dur",
+            "Children's literature, Noddy, The Famous Five, The Secret Seven",
+            "Suspense",
+            "Harry Potter, Fantastic Beasts and Where to Find Them",
+            "Adolescent adventures",
+            "Children's literature"
+        ],
+        "descriptions": [
+            "Shakespeare's plays have the reputation of being among the greatest in the English language and in Western literature. Traditionally, the plays are divided into the genres of tragedy, history, and comedy; they have been translated into every major living language, in addition to being continually performed all around the world.",
+            "Whodunit follows the paradigm of the classical detective story in the sense that it presents crime as a puzzle to be solved through a chain of questions that the detective poses.[3] In a whodunit, however, the audience is given the opportunity to engage in the same process of deduction as the protagonist throughout the investigation of a crime. This engages the readers so that they strive to compete with or outguess the expert investigator.[4]",
+            "Although the genre is very old, the romance novel or romantic novel discussed in this article is the mass-market version. Novels of this type of genre fiction place their primary focus on the relationship and romantic love between two people, and must have an emotionally satisfying and optimistic ending.",
+            "Adventure fiction is fiction that usually presents danger, or gives the reader a sense of excitement."
+        ],
+        "images_pathes": [
+            "bookimg.jpg",
+            "howtoilove_book.jpg",
+            "librarybook.jpg",
+            "newbook.jpeg"
+        ]
+    }
+}
