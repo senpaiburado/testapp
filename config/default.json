@@ -10,7 +10,7 @@
         "master": {
             "host": "localhost",
             "user": "root",
-            "password": "xjkfr2019",
+            "password": "password",
             "port": "3306",
             "database": "test",
             "connectionLimit": 3
